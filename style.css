@@ -244,3 +244,34 @@ footer {
     .container { flex-direction: column-reverse; padding: 20px; }
     .image-section { text-align: center; }
 }
+
+/* ABOUT SECTION */
+
+.about-gameverse {
+    position: relative;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+        url("about.png") center / cover no-repeat;
+
+    padding: 28px 2%;
+}
+/* Text container */
+.about-content {
+    max-width: 720px;
+}
+
+/* Heading */
+.about-gameverse h2 {
+    font-size: 2.6rem;
+    color: #ef4444;
+    margin-bottom: 22px;
+    letter-spacing: 1px;
+}
+
+/* Paragraph */
+.about-gameverse p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #e5e7eb;
+}
